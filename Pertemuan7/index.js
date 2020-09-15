@@ -105,26 +105,25 @@ for (x in buku) { // for(propertiObjek in namaObjek)
 }
  
 //for...of
-const buku = ["Game of Thrones: A Song of Ice and Fire",  
+const buku1 = ["Game of Thrones: A Song of Ice and Fire",  
    "Harry Potter and The Philosopher's Stone", 
    "Lord of The Rings: The Fellowship of The Ring"
 ];
 
-for (x of buku) {
+for (x of buku1) {
   console.log(x);
 }
 //variable element juga bisa diganti dengan nama variable apapun
 
 //while
-let i = 1;
-while (i <= 10) {
+let ik = 1;
+while (ik <= 10) {
   console.log(i);
-  i++;
+  ik++;
 }
 
 //do...while
 let j = 1;
-
 do {
   console.log(j);
   j++;
