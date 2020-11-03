@@ -23,8 +23,8 @@ const hitung = (...angka) => {
 console.log(hitung(1, 2,3,4,5));
 
 const hitung1 = (angaka1,angka2,...angka) => {
-    console.log(angka1);
-    console.log(angka)
+    // console.log(angka1);
+    // console.log(angka)
     let total = 0;
     angka.forEach((el) => {
         total = total +angka[i];
