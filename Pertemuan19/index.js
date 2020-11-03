@@ -12,7 +12,7 @@ person.displayFullName();
 
 
 //Inheritance
-
+const
 //Static Member
 //Static bukan function,
 

@@ -15,9 +15,9 @@
 //dari bebrapa elemen mnjadi satu array
 const hitung = (...angka) => {
     let total = 0;
-    angka.forEach(el) => {
+    angka.forEach((el) => {
         total = total +angka[i];
-    }
+    })
     return total;
 }
 console.log(hitung(1, 2,3,4,5));
