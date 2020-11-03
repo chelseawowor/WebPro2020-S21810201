@@ -20,7 +20,7 @@ yearUntilRetirement({year: 1987, firstName: 'John'});
 const addNumber = (...numbers) => {
     let sum = 0;
     numbers.forEach((el) => {
-        sum = sum +numbers;
+        sum = sum + numbers;
     })
     return sum;
 }
@@ -41,15 +41,13 @@ const area7 = calculateArea({radius: radius[1], power: 2 });
 console.log(`area with 21 radius: ${area21} , and area with 7 radius: ${area7}`);
 
 //4
-const makeAjaxRequest = (url, method) => {
-    if(!method){
-        method = 'GET'
-     }
+const makeAjaxRequest = (url, method = 'GET') => {
     console.log(url, method);
 }
 makeAjaxRequest('www.google.com');
 
 //Bagian 2
+
 //1.
 const warnaKesukaan = (warna) => {
     return console.log(`Warna kesukaan saya adalah ${warna}`);
